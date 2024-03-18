@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F8263EE2BA8FE1E001D13DF /* WANcerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8263ED2BA8FE1E001D13DF /* WANcerApp.swift */; };
-		4F8263F02BA8FE1E001D13DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8263EF2BA8FE1E001D13DF /* ContentView.swift */; };
-		4F8263F22BA8FE1E001D13DF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8263F12BA8FE1E001D13DF /* Item.swift */; };
-		4F8263F42BA8FE20001D13DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8263F32BA8FE20001D13DF /* Assets.xcassets */; };
-		4F8263F72BA8FE20001D13DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8263F62BA8FE20001D13DF /* Preview Assets.xcassets */; };
-		4F8264012BA8FE20001D13DF /* WANcerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8264002BA8FE20001D13DF /* WANcerTests.swift */; };
-		4F82640B2BA8FE20001D13DF /* WANcerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82640A2BA8FE20001D13DF /* WANcerUITests.swift */; };
-		4F82640D2BA8FE20001D13DF /* WANcerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82640C2BA8FE20001D13DF /* WANcerUITestsLaunchTests.swift */; };
+		4F82641B2BA90063001D13DF /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82641A2BA90063001D13DF /* BluetoothManager.swift */; };
+		4F82641D2BA9008C001D13DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82641C2BA9008C001D13DF /* ContentView.swift */; };
+		4F82641F2BA900AA001D13DF /* WancerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82641E2BA900AA001D13DF /* WancerApp.swift */; };
+		4F8264222BA900C2001D13DF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8264212BA900C2001D13DF /* Message.swift */; };
+		4F8264242BA900CA001D13DF /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8264232BA900CA001D13DF /* UserGroup.swift */; };
+		4F8264262BA900D0001D13DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8264252BA900D0001D13DF /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +34,14 @@
 
 /* Begin PBXFileReference section */
 		4F8263EA2BA8FE1E001D13DF /* WANcer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WANcer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F8263ED2BA8FE1E001D13DF /* WANcerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WANcerApp.swift; sourceTree = "<group>"; };
-		4F8263EF2BA8FE1E001D13DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4F8263F12BA8FE1E001D13DF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		4F8263F32BA8FE20001D13DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F8263F62BA8FE20001D13DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F8263FC2BA8FE20001D13DF /* WANcerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WANcerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F8264002BA8FE20001D13DF /* WANcerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WANcerTests.swift; sourceTree = "<group>"; };
 		4F8264062BA8FE20001D13DF /* WANcerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WANcerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F82640A2BA8FE20001D13DF /* WANcerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WANcerUITests.swift; sourceTree = "<group>"; };
-		4F82640C2BA8FE20001D13DF /* WANcerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WANcerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F82641A2BA90063001D13DF /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		4F82641C2BA9008C001D13DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F82641E2BA900AA001D13DF /* WancerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WancerApp.swift; sourceTree = "<group>"; };
+		4F8264212BA900C2001D13DF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4F8264232BA900CA001D13DF /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
+		4F8264252BA900D0001D13DF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				4F8263EC2BA8FE1E001D13DF /* WANcer */,
-				4F8263FF2BA8FE20001D13DF /* WANcerTests */,
-				4F8264092BA8FE20001D13DF /* WANcerUITests */,
 				4F8263EB2BA8FE1E001D13DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,38 +90,22 @@
 		4F8263EC2BA8FE1E001D13DF /* WANcer */ = {
 			isa = PBXGroup;
 			children = (
-				4F8263ED2BA8FE1E001D13DF /* WANcerApp.swift */,
-				4F8263EF2BA8FE1E001D13DF /* ContentView.swift */,
-				4F8263F12BA8FE1E001D13DF /* Item.swift */,
-				4F8263F32BA8FE20001D13DF /* Assets.xcassets */,
-				4F8263F52BA8FE20001D13DF /* Preview Content */,
+				4F8264202BA900B4001D13DF /* models */,
+				4F82641C2BA9008C001D13DF /* ContentView.swift */,
+				4F82641A2BA90063001D13DF /* BluetoothManager.swift */,
+				4F82641E2BA900AA001D13DF /* WancerApp.swift */,
 			);
 			path = WANcer;
 			sourceTree = "<group>";
 		};
-		4F8263F52BA8FE20001D13DF /* Preview Content */ = {
+		4F8264202BA900B4001D13DF /* models */ = {
 			isa = PBXGroup;
 			children = (
-				4F8263F62BA8FE20001D13DF /* Preview Assets.xcassets */,
+				4F8264212BA900C2001D13DF /* Message.swift */,
+				4F8264232BA900CA001D13DF /* UserGroup.swift */,
+				4F8264252BA900D0001D13DF /* User.swift */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4F8263FF2BA8FE20001D13DF /* WANcerTests */ = {
-			isa = PBXGroup;
-			children = (
-				4F8264002BA8FE20001D13DF /* WANcerTests.swift */,
-			);
-			path = WANcerTests;
-			sourceTree = "<group>";
-		};
-		4F8264092BA8FE20001D13DF /* WANcerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4F82640A2BA8FE20001D13DF /* WANcerUITests.swift */,
-				4F82640C2BA8FE20001D13DF /* WANcerUITestsLaunchTests.swift */,
-			);
-			path = WANcerUITests;
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +176,7 @@
 				TargetAttributes = {
 					4F8263E92BA8FE1E001D13DF = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					4F8263FB2BA8FE20001D13DF = {
 						CreatedOnToolsVersion = 15.2;
@@ -234,8 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8263F72BA8FE20001D13DF /* Preview Assets.xcassets in Resources */,
-				4F8263F42BA8FE20001D13DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8263F02BA8FE1E001D13DF /* ContentView.swift in Sources */,
-				4F8263F22BA8FE1E001D13DF /* Item.swift in Sources */,
-				4F8263EE2BA8FE1E001D13DF /* WANcerApp.swift in Sources */,
+				4F82641D2BA9008C001D13DF /* ContentView.swift in Sources */,
+				4F8264242BA900CA001D13DF /* UserGroup.swift in Sources */,
+				4F8264262BA900D0001D13DF /* User.swift in Sources */,
+				4F8264222BA900C2001D13DF /* Message.swift in Sources */,
+				4F82641F2BA900AA001D13DF /* WancerApp.swift in Sources */,
+				4F82641B2BA90063001D13DF /* BluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8264012BA8FE20001D13DF /* WANcerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F82640D2BA8FE20001D13DF /* WANcerUITestsLaunchTests.swift in Sources */,
-				4F82640B2BA8FE20001D13DF /* WANcerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WANcer/Preview Content\"";
@@ -441,6 +419,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wancer.WANcer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WANcer/WANcer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WANcer/Preview Content\"";
@@ -469,6 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wancer.WANcer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WANcer/WANcer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
